@@ -1,0 +1,26 @@
+// import required classes  
+import java.util.Scanner;  
+// create class for printing star pattern
+class Pattern
+{  
+    // main() method start  
+    public static void main (String[] args)  
+    { 
+        int i,j,n,k;//Declaring of Variable
+        n=4;
+        int var =1;
+        for(i=0;i<n;i++){ //Loop for number of rows
+            
+            for(j=n-1;j>i;j--){ //Loop for space
+                System.out.print(" ");
+            }
+                for(k=1;k<=var;k++){ //Loop for printing star
+                    System.out.print("*");   
+                    
+                }
+            var +=1; //var is the variable to print number of stars in the row
+            System.out.println();
+        
+        }
+}
+    }
