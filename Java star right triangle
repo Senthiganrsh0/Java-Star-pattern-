@@ -1,0 +1,16 @@
+// import required classes  
+import java.util.Scanner;  
+// create class for printing star pattern
+class Solution
+{  
+    // main() method start  
+    public static void main (String[] args)  
+    { 
+        for(int i=0;i<4;i++){ //Loop for number of rows
+            for(int j=0;j<i+1;j++){//Loop for number of stars to print in each rows
+                System.out.print("*");//Printing of stars
+        }
+            System.out.println();//End of loop
+        }
+    }
+}
